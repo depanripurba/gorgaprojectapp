@@ -1,0 +1,6 @@
+membuat jumbotron
+kita mendesain dengan bootstrap versi lima
+kita sekarang membuat website gorga project
+
+ketika diakses dengan menggunakan laptop atau komputer maka akan menampilkan background dengan ukuran komputer
+sedangkan jika diakses dengan mobile maka akan menampilkan background yang sangat sempurna untuk mobile

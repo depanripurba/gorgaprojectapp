@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300&display=swap');
+.header1{
+    /* border: 1px solid red; */
+    height: 100vh;
+    background-image: url("./kamera.jpg");
+    background-size: cover;
+    color: white;
+    font-family: 'Nunito Sans', sans-serif;
+    transition: opacity 2s;
+    /* tentang grid */
+    display: grid;
+    grid-template-rows: 50px auto;
+}
+.header2{
+    /* border: 1px solid red; */
+    background: rgba(13, 84, 177, 0.4);
+    display: grid;
+    grid-template-columns: 30% auto;
+   
+}
+.header3{
+    /* border: 1px solid green; */
+    display: grid;
+    grid-template-rows: auto 100px;
+    background: rgba(0, 195, 255,0.4);
+}
+.header4{
+    /* border: 1px solid aqua; */
+    display: grid;
+    grid-template-columns: 70% 30%;
+}
+.header5{
+    /* border: 1px solid lightpink; */
+    justify-self: center;
+}
+.header6{
+    /* border: 1px solid lightseagreen; */
+    text-align: center;
+    padding: 30px;
+    align-self: center;
+}
+.header7{
+    /* border: 1px solid aliceblue; */
+}
+.header8{
+    justify-self: center;
+    align-self: center;
+    font-weight: bold;
+    font-style: italic;
+    cursor: pointer;
+}
+.header9{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    align-self: center;
+    cursor: pointer;
+}
+.gambar{
+    width: 100%;
+}
+h2{
+    text-align: left;
+}
+.tombol{
+    padding-left:40px;
+    padding-right: 40px;
+    background: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 20px;
+    box-shadow: black 2px 2px 2px;
+    transition: 1s;
+
+}
+.tombol:hover{
+    background: yellow;
+}
