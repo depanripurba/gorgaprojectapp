@@ -1,0 +1,10 @@
+.ourteam1{
+    font-family: Nunito;
+}
+.ourteam2{
+    text-align: center;
+}
+.ourteam3{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr))
+}

@@ -1,7 +1,8 @@
 import "./style.css";
 import {Fragment} from "react"
 import Gambar from "./logo.png"
-import Image from "./../Image";
+import Image from "../Image";
+import OurTeam from "../OurTeam";
 function Header() {
   return (
     <Fragment>
@@ -34,7 +35,10 @@ function Header() {
     <div>
       <Image />
     </div>
-    </Fragment>
+    <div>
+      <OurTeam />
+    </div>
+    </Fragment> 
   );
 }
 
