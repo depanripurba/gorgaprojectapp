@@ -15,8 +15,8 @@ function OurTeam() {
                 <Teampart Gambar={Gambar1} Nama="Irwan Tabor Silitonga" Jabatan="Ketua Tim" />
                 <Teampart Gambar={Gambar2} Nama="Arnold Marpaung" Jabatan="Wakil Ketua" />
                 <Teampart Gambar={Gambar3} Nama="Depanri Purba" Jabatan="Sekretaris1" />
-                <Teampart Gambar={Gambar4} Nama="Irwan Tabor Silitonga" Jabatan="Sekretaris2" />
-                <Teampart Gambar={Gambar5} Nama="Irwan Tabor Silitonga" Jabatan="Bendahara" />
+                <Teampart Gambar={Gambar4} Nama="Gery S Sidabutar" Jabatan="Sekretaris2" />
+                <Teampart Gambar={Gambar5} Nama="Leonardi Sidabutar" Jabatan="Bendahara" />
             </div>
         </div>
     )
