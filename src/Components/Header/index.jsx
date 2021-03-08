@@ -1,7 +1,10 @@
-import './style.css';
+import "./style.css";
+import {Fragment} from "react"
 import Gambar from "./logo.png"
+import Image from "./../Image";
 function Header() {
   return (
+    <Fragment>
     <div className="header1">
       <div className="header2">
         <div className="header8">
@@ -16,8 +19,8 @@ function Header() {
       <div className="header3">
         <div className="header4">
           <div className="header6">
-            <h1>" GORGA PROJECT "</h1 >
-            <h2>Kami menyediakan jasa fotographer dan videographer untuk mengabadikan moment Pernikahan, Wisuda, Ulang Tahun dan lainya</h2>
+            <h1>" GORGA PROJECT "</h1>
+            <h2>Kami menyediakan jasa fotographer dan videographer untuk mengabadikan moment Pernikahan, Wisuda, Ulang Tahun dan lainnya</h2>
           </div>
           <div className="header7">
             <img className="gambar" src={Gambar} alt="gorgaproject"/>
@@ -28,6 +31,10 @@ function Header() {
         </div>
       </div>
     </div>
+    <div>
+      <Image />
+    </div>
+    </Fragment>
   );
 }
 

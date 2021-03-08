@@ -1,0 +1,20 @@
+.imagepart4{
+    width: 100%;
+    border-radius: 20px;
+   
+}
+.imagepart2{
+    text-align: center;
+    font-style: italic;
+    font-size: +12;
+    color: rgb(172, 149, 114);
+}
+.imagepart3{
+    padding: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.imagepart1{
+    font-family: Nunito;
+}
