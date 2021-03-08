@@ -5,3 +5,6 @@ kita sekarang membuat website gorga project
 ketika diakses dengan menggunakan laptop atau komputer maka akan menampilkan background dengan ukuran komputer
 sedangkan jika diakses dengan mobile maka akan menampilkan background yang sangat sempurna untuk mobile
 prinsip yang digunakan adalah prinsip satu halaman yang mana user tidak bisa menggeser ke bawah halaman
+
+1. membuat halaman menjadi single page aplication
+2. selanjutnya adalah 

@@ -3,6 +3,7 @@ import {Fragment} from "react"
 import Gambar from "./logo.png"
 import Image from "../Image";
 import OurTeam from "../OurTeam";
+import Footer from "../Footer";
 function Header() {
   return (
     <Fragment>
@@ -38,6 +39,7 @@ function Header() {
     <div>
       <OurTeam />
     </div>
+    <Footer />
     </Fragment> 
   );
 }

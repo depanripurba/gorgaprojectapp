@@ -5,8 +5,8 @@ function Teampart({Gambar,Nama,Jabatan}){
             <table className="tabel">
                 <tbody>
                     <tr><td><img className="Teampart2" src={Gambar} alt=""/></td></tr>
-                    <tr><td>{Nama}</td></tr>
-                    <tr><td>{Jabatan}</td></tr>
+                    <tr><td className="nama">{Nama}</td></tr>
+                    <tr><td className="jabatan">{Jabatan}</td></tr>
                 </tbody>
             </table>
         </div>

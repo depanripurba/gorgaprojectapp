@@ -8,7 +8,9 @@ import "./style.css"
 function OurTeam() {
     return (
         <div className="ourteam1">
+            <hr className="hr1"/>
             <h1 className="ourteam2">Tim Kami</h1>
+            <hr className="hr2"/>
             <div className="ourteam3">
                 <Teampart Gambar={Gambar1} Nama="Irwan Tabor Silitonga" Jabatan="Ketua Tim" />
                 <Teampart Gambar={Gambar2} Nama="Arnold Marpaung" Jabatan="Wakil Ketua" />

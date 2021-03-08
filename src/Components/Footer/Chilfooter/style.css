@@ -1,0 +1,11 @@
+.chilfooter1{
+    display: grid;
+}
+center{
+    justify-self: center;
+    align-self: center;
+}
+marquee{
+    width: 60%;
+    margin: auto;
+}

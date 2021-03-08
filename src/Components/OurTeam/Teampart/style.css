@@ -1,6 +1,12 @@
+.Teampart1{
+ justify-self: center;
+ align-self: center;
+}
 .Teampart2{
     width: 200px;
     border-radius: 20px;
+    cursor: pointer;
+    transition: 1s;
 }
 .tabel{
     text-align: center;
@@ -9,4 +15,14 @@
 .tabel tbody tr td{
     text-align: center;
  
+}
+.nama{
+    color: blue;
+    font-weight: bold;
+}
+.Teampart2:hover{
+    opacity: 0.8;
+}
+.jabatan{
+    color: rgb(197, 174, 140);
 }

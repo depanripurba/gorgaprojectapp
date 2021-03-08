@@ -1,0 +1,35 @@
+.footer1{
+    display: grid;
+    height: 100vh;
+    background-image: linear-gradient(to right,rgb(23, 14, 63),rgb(57, 20, 82),rgb(70, 50, 14));
+    color: white;
+    font-family: Nunito;
+    font-weight: bold;
+    grid-template-rows: 100px auto 200px;
+    
+    
+}
+.bungkusfooter{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+}
+.footer2,.footer3,.footer4{
+    align-self: center;
+    justify-self: center;
+}
+.icons{
+    margin-bottom: -4px;
+}
+.head{
+    color: rgb(204, 191, 172);
+    font-size: 14pt;
+}
+ul li{
+    list-style: none;
+    cursor: pointer;
+    transition: 0.4s;
+
+}
+ul li:hover{
+    color: rgb(184, 175, 163);
+}
