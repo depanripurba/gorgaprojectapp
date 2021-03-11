@@ -8,3 +8,59 @@ prinsip yang digunakan adalah prinsip satu halaman yang mana user tidak bisa men
 
 1. membuat halaman menjadi single page aplication
 2. selanjutnya adalah 
+
+
+cara membuat image slider dengan react js
+kita bisa membuat dengan react-slik
+cara menginstal react slik adalah sebagai berikut :
+npm install --save slick-carousel react-slick
+
+cara menggunakan react slick
+import React, { Component } from "react";
+import Slider from "react-slick";
+referensi
+https://react-slick.neostack.com/docs/example/custom-arrows
+
+export default class SimpleSlider extends Component {
+  render() {
+    const settings = {
+      dots: true,
+      infinite: true,
+      speed: 500,
+      slidesToShow: 1,
+      slidesToScroll: 1
+    };
+    return (
+      <div>
+        <h2> Single Item</h2>
+        <Slider {...settings}>
+          <div>
+            <h3>1</h3>
+          </div>
+          <div>
+            <h3>2</h3>
+          </div>
+          <div>
+            <h3>3</h3>
+          </div>
+          <div>
+            <h3>4</h3>
+          </div>
+          <div>
+            <h3>5</h3>
+          </div>
+          <div>
+            <h3>6</h3>
+          </div>
+        </Slider>
+      </div>
+    );
+  }
+}
+
+
+cara membuat website responsive
+<link rel="stylesheet" media="screen and (min-width: 900px)" href="widescreen.css">
+<link rel="stylesheet" media="screen and (max-width: 600px)" href="smallscreen.css">
+
+langkah pertama adalah langsung saja one by one agar hemat waktu

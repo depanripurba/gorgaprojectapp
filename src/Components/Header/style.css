@@ -2,9 +2,8 @@
 .header1{
     /* border: 1px solid red; */
     height: 100vh;
-    background-image: url("./kamera.jpg");
     background-size: cover;
-    color: white;
+    color: rgb(59, 59, 59);
     font-family: 'Nunito Sans', sans-serif;
     transition: opacity 2s;
     /* tentang grid */
@@ -15,7 +14,7 @@
     /* border: 1px solid red; */
     background: rgba(13, 84, 177, 0.4);
     display: grid;
-    grid-template-columns: 30% auto;
+    grid-template-columns: 30% auto 400px;
    
 }
 .header3{
@@ -51,7 +50,7 @@
 }
 .header9{
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(4,1fr);
     align-self: center;
     cursor: pointer;
 }
@@ -75,3 +74,19 @@ h2{
 .tombol:hover{
     background: yellow;
 }
+
+@media only screen and (max-width: 600px) {
+    body::after{
+        content: "Website ini masih dalam tahap development jadi jangan buka di hp harus dibuka di laptop atau komputer. pesan ini langsung dari Depanri purba web developer Gorga Project";
+        height: 100vh;
+        background: black;
+        color: white;
+        position: absolute;
+        width: 100%;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        text-align: center;
+    }
+  }
