@@ -64,3 +64,8 @@ cara membuat website responsive
 <link rel="stylesheet" media="screen and (max-width: 600px)" href="smallscreen.css">
 
 langkah pertama adalah langsung saja one by one agar hemat waktu
+
+langkah langkah dalam mebuat desain website adalah
+1. kenapa gorga project di ganti di samping
+2. gunakan jasa kami naik ke atas
+3. dibawah menjadi menerangkan mengenai fasilitas yang dimiliki oleh gorga project
