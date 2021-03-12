@@ -1,4 +1,6 @@
 .image1{
+    margin-top: 40px;
+    display: grid;
     
 }
 .image2{
@@ -6,3 +8,13 @@
     font-family: Nunito;
     color: rgb(147, 199, 199);
 }
+.image3{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,1fr);
+    grid-gap: 70px;
+    margin: 30px;
+}
+.fragmentimage{
+    background: rgb(214, 217, 248);
+}
+  

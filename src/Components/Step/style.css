@@ -1,0 +1,9 @@
+.steproot{
+    font-family: nunito;
+}
+.step1{
+    width: 50%;
+    margin: auto;
+    font-style: italic;
+    color: rgb(129, 82, 129);
+}

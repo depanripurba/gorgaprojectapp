@@ -4,17 +4,45 @@
    
 }
 .imagepart2{
-    text-align: center;
-    font-style: italic;
     font-size: +12;
     color: rgb(172, 149, 114);
+   
 }
 .imagepart3{
-    padding: 100px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+  border-radius: 30px;
+  justify-self: center;
+}
+.gambarpart{
+    border-radius: 30px;
+    width: 400px;
 }
 
 .imagepart1{
     font-family: Nunito;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 70%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin: auto;
+    
+}
+.imagerpartjudul{
+    color: rgb(219, 17, 84);
+    font-size: 24pt;
+}
+.imagepartjenis{
+    color: rgb(5, 14, 26);
+    font-size: 20pt;
+}
+.imageparttombol{
+    border: 1px solid rgb(8, 110, 158);
+    text-align: center;
+    cursor: pointer;
+    border-radius: 20px;
+    
+}
+.imageparttombol:hover{
+    background: rgb(8, 110, 158);
+    color: white;
 }

@@ -6,6 +6,8 @@ import OurTeam from "../OurTeam";
 import Footer from "../Footer";
 import ImageSlider from "../ImageSlider";
 import Rightslide from "../Rightslide";
+import Step from "../Step";
+import Software from "../Software";
 function Header() {
   return (
     <Fragment>
@@ -41,6 +43,12 @@ function Header() {
       </div>
       <div>
         <Image />
+      </div>
+      <div>
+        <Step />
+      </div>
+      <div>
+        <Software />
       </div>
       <div>
         <OurTeam />
