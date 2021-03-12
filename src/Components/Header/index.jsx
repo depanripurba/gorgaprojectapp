@@ -14,17 +14,20 @@ function Header() {
           <div className="header8">
             GORGA PROJECT
          </div>
-          <div className="header9">
+          <div className="header9"> 
             <span>Utama</span>
             <span>Tentang</span>
             <span>Kontak</span>
             <span>Galeri</span>
           </div>
+          <div className="header10">
+          <a className="tombol" href="">Gunakan jasa kami</a>
+          </div> 
         </div>
         <div className="header3">
           <div className="header4">
             <div className="header6">
-              <span>Contoh Hasil</span>
+              <span><h3>GORGA PROJECT</h3></span>
               <center><ImageSlider/></center>
             </div>
             <div className="header7">
@@ -32,7 +35,7 @@ function Header() {
             </div>
           </div>
           <div className="header5">
-            <a className="tombol" href="">Gunakan jasa kami</a>
+            
           </div>
         </div>
       </div>

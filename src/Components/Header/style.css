@@ -39,7 +39,8 @@
     align-self: center;
 }
 .header7{
-    /* border: 1px solid aliceblue; */
+    border: 1px solid aliceblue;
+    align-self: center;
 }
 .header8{
     justify-self: center;
@@ -60,14 +61,13 @@
 h2{
     text-align: left;
 }
+.header10{
+    align-self: center;
+}
 .tombol{
-    padding-left:40px;
-    padding-right: 40px;
     background: white;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding: 10px;
     border-radius: 20px;
-    box-shadow: black 2px 2px 2px;
     transition: 1s;
 
 }

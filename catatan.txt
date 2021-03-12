@@ -69,3 +69,8 @@ langkah langkah dalam mebuat desain website adalah
 1. kenapa gorga project di ganti di samping
 2. gunakan jasa kami naik ke atas
 3. dibawah menjadi menerangkan mengenai fasilitas yang dimiliki oleh gorga project
+
+
+merubah arrows pada react slik
+membuat sebuah komponen yang kosong 
+langsung kita appendkan komponen tersebut ke dalam arrows lama
