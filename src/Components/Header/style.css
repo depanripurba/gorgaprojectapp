@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300&display=swap');
 .header1{
-    /* border: 1px solid red; */
     height: 100vh;
     background-size: cover;
     color: rgb(59, 59, 59);
@@ -18,9 +17,8 @@
    
 }
 .header3{
-    /* border: 1px solid green; */
     display: grid;
-    grid-template-rows: auto 100px;
+    grid-template-rows: auto;
     background: rgba(0, 195, 255,0.4);
 }
 .header4{
