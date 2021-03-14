@@ -1,0 +1,29 @@
+.keteranganbrand{
+    color:white;
+}
+.rootbrand{
+    background-image: linear-gradient(to bottom, black,red);
+    font-family: nunito;
+    color: white;
+    padding: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.rootbrand hr{
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0,0,0,0),rgba(255, 255, 255, 0.75),rgba(0,0,0,0));
+}
+.tombol-brand{
+    background: black;
+    width: 200px;
+    padding: 20px;
+    cursor: pointer;
+    border-radius: 30px;
+}
+.tombol-brand:hover{
+    color: red;
+}
+.brand-gorga{
+    width: 300px;
+}

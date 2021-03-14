@@ -1,12 +1,12 @@
 import "./style.css";
-function Child(){
+function Child({Judul, Keterangan}){
     return(
         <div className="contenchild">
             <center>
-                <p>Kualitas HD</p>
-                <p>Gorga Project dengan kamera yang bagus yang dapat menghasilkan gambar dengan kualitas yang bagus</p>
+                <p className="Judul">{Judul}</p>
+                <p className="Keterangan">{Keterangan}</p>
             </center>
-        </div>
-    )
-}
+        </div> 
+    ) 
+} 
 export default Child;

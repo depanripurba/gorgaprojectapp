@@ -74,3 +74,17 @@ langkah langkah dalam mebuat desain website adalah
 merubah arrows pada react slik
 membuat sebuah komponen yang kosong 
 langsung kita appendkan komponen tersebut ke dalam arrows lama
+
+ukuran logo harus minimalis agar terkesan bagus
+untuk membuat bagian dari software sebaiknya kita menggunakan komponen baru untuk melakukan komponen yang bagus
+
+sekarang tinggal menambahkan sedikit bagian di dekat bagian yang bawah agar tampilan lebih enak untuk di pandang
+tentang apa saja yang ditawarkan oleh gorga project
+pertama disiapkan dulu semua interface baru nanti di lakukan coding untuk logika websitenya
+
+menemukan tombol yang cocok dibagian bawah website sehingga tampilan websitenya menjadi bagus
+
+membuat tampilan diskon yang akan membuat para pengunjung menjadi penasaran dengan fitur-fitur yang dimiliki oleh tim gorga project
+
+algoritama dalam membuat hitungan mundur untuk diskon
+misal kita diskon sampai besok maka langsun dikurang satu hari

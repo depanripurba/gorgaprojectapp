@@ -11,7 +11,7 @@ function Image() {
   return (
     <div className="imageroot">
       <div className="image1">
-        <h2 className="image2">Alat yang Kami Gunakan</h2>
+        <h2 className="image2">Alat yang Kami Gunakan</h2> 
       </div>
       <div className="image3">
         <ImagePart Jenis="Kamera DSLR Pro Level" Ket="Dalam pengambilan gambar Gorga Project menggunakan kamera DSLR level high-end, sehingga gambar yang dihasilkan adalah gambar-gambar dengan kualitas tinggi/HD dengan tingkat keakuratan yang tinggi serta jernih" Status="1" Gambar={Gambar1} />

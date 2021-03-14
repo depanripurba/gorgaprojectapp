@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap');
 .header1{
     height: 100vh;
     background-size: cover;
-    color: rgb(59, 59, 59);
     font-family: 'Nunito Sans', sans-serif;
     transition: opacity 2s;
     /* tentang grid */
@@ -11,7 +11,8 @@
 }
 .header2{
     /* border: 1px solid red; */
-    background: rgba(13, 84, 177, 0.4);
+    background: black;
+    color: aliceblue;
     display: grid;
     grid-template-columns: 30% auto 400px;
    
@@ -19,26 +20,45 @@
 .header3{
     display: grid;
     grid-template-rows: auto;
-    background: rgba(0, 195, 255,0.4);
+    background: rgb(77, 20, 20);
 }
 .header4{
     /* border: 1px solid aqua; */
     display: grid;
     grid-template-columns: 70% 30%;
 }
-.header5{
-    /* border: 1px solid lightpink; */
-    justify-self: center;
+.judul-header{
+    color: white;
+    font-family: 'Dancing Script', cursive;
+    font-size: 20pt;
 }
+
 .header6{
     /* border: 1px solid lightseagreen; */
     text-align: center;
     padding: 30px;
-    align-self: center;
+    align-self: top;
+}
+.header-menu{
+    position: absolute;
+    display: none;
+    z-index: 999;
+    line-height: 23pt;
+    margin-top: 0px;
+}
+.header-menu span{
+    color: black;
+    background: white;
+    padding: 10px;
+
+}
+.header-menu span:hover{
+    background: black;
+    color: white;
+    transition: 1s;
 }
 .header7{
-    border: 1px solid aliceblue;
-    align-self: center;
+    align-self: top;
 }
 .header8{
     justify-self: center;
@@ -50,8 +70,29 @@
 .header9{
     display: grid;
     grid-template-columns: repeat(4,1fr);
-    align-self: center;
+
     cursor: pointer;
+}
+.dop-down{
+    position: absolute;
+    top: 12px;
+}
+.header9 .sub-menu{
+    text-align: center;
+    line-height: 40px;
+}
+.header-kontak{
+    width: 200px;
+    color: black;
+    padding-left: 21px;
+    padding-right: 21px;
+}
+.header9 .sub-menu:hover{
+    background: white;
+    color: black;
+}
+.header9 .sub-menu:hover .header-menu{
+    display: grid;
 }
 .gambar{
     width: 100%;
@@ -59,8 +100,12 @@
 h2{
     text-align: left;
 }
+.header-kontak:hover{
+    color: white;
+}
 .header10{
     align-self: center;
+    justify-self: center;
 }
 .tombol{
     background: white;
@@ -75,7 +120,7 @@ h2{
 
 @media only screen and (max-width: 600px) {
     body::after{
-        content: "Website ini masih dalam tahap development jadi jangan buka di hp harus dibuka di laptop atau komputer. pesan ini langsung dari Depanri purba web developer Gorga Project";
+        content: "Website ini masih dalam tahap development jadi jangan buka di hp harus dibuka di laptop atau komputer. jangan keras kepala ya, namun jika memang harus dari hp, langkah pertama yang harus dilakukan adalah membuat hp menjadi lanscape lalu pada setelan aktifkan situs dekstop. nanti kalo udah di buat versi mobilenya pasti dikabari ya  pesan ini langsung dari Depanri purba web developer Gorga Project";
         height: 100vh;
         background: black;
         color: white;

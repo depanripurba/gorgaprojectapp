@@ -1,12 +1,9 @@
 import "./style.css";
-import ImagePart from "../Image/ImagePart";
+import Softwarepart from "./Softwarepart";
 import {Fragment} from "react";
 import Gambar1 from "../Image/sofware1.png";
-import Gambar2 from "../Image/peralatan2.jpg";
-import Gambar3 from "../Image/peralatan3.jpg";
-import Gambar4 from "../Image/peralatan4.jpg";
-import Gambar5 from "../Image/peralatan5.jpg";
-import Gambar6 from "../Image/peralatan6.jpg";
+import Gambar2 from "./lightroo.png";
+import Gambar3 from "../Image/software2.png";
 function Software() {
   return (  
       <Fragment className="fragmentimage">
@@ -14,12 +11,9 @@ function Software() {
             <h2 className="image2">Software yang kami gunakan</h2>
         </div>
         <div className="image3">
-            <ImagePart Jenis = "Adobe Photoshop" Ket="Dalam pengambilan gambar Gorga Project menggunakan kamera DSLR level high-end, sehingga gambar yang dihasilkan adalah gambar-gambar dengan kualitas tinggi/HD dengan tingkat keakuratan yang tinggi serta jernih" Status="1" Gambar = {Gambar1}/>
-            <ImagePart Jenis = "Lensa Bervariasi" Ket="Selain menggunakan Kamera DSLR Pro Level, peralatan kami juga dilengkapi dengan berbagai variasi lensa mulai wide angle sampai lensa tele. Tidak lupa juga dengan lensa Fix yang punya ketajaman lebih bagus dibandingkan dengan lensa Vario" Gambar = {Gambar2}/>
-            <ImagePart Jenis = "Laptop dengan Spesifikasi Tinggi" Ket="Selain dilengkapi dengan kamera dan lensa kami juga disuport dengan laptop spesifikasi tinggi untuk proses pengeditan dan render baik itu Foto maupun Video" Status="1" Gambar = {Gambar3}/>
-            <ImagePart Jenis = "Harddisk Eksternal" Ket="Kami juga dilengkapi dengan hardisk Eksternal dengan kapasitas tinggi , jadi semua project yang kami kerjakan mempunyai history yang teratur. Jadi apabila File yang sudah kami serahkan kepada client kami bermasalah kami bisa mengirimkan ulang dengan beberapa syarat tergantung situasi dan kondisi" Gambar = {Gambar4}/>
-            <ImagePart Jenis = "Filter Lensa" Ket="Kami juga mempunyai Filter lensa kamera, jadi bagaimapun kondisi medan tempat pengambilan gambar maupun video dapat diatasi, baik itu dengan cahanya yang super hight maupun yang sangan low" Status="1" Gambar = {Gambar5}/>
-            <ImagePart Jenis = "Drone" Ket="Apabila sebuah shoot membutuhkan jangkauan yang tinggi maupun shoot dengan kategori tertentu, kami bisa menggunakan drone untuk proses pengambilang gambar maupun video" Gambar = {Gambar6}/>
+            <Softwarepart Jenis = "Adobe Photoshop" Ket="Terkadang foto yang sudah diambil mungkin dijadikan dengan style atau nuansa baru atau  beberapa momen indah terlewatkan, maka kami bisa menghadirkan moment itu untuk anda. Di tim kami terdapat ahli photoshop yang yang mampu menghadirkan moment itu untuk anda" Status="1" Gambar = {Gambar1}/>
+            <Softwarepart Jenis = "Adobe Lightroom" Ket="Terkadang pencahayaan kurang sesuai dengan selera, tapi tidak perlu khawatir, karena pencahayaan yang sesuai akan bisa dihadirkan oleh kami untuk anda dengan Adobe Lightroom" Gambar = {Gambar2}/>
+            <Softwarepart Jenis = "Wondershare Filmora" Ket="Untuk merender video kami menggunakan Wondershare Filmora 10 dan Pro. Jadi kualitas yang dihasilkan pastinya adalah kualitas yang terbaik" Status="1" Gambar = {Gambar3}/>
             
         </div>
     </Fragment>

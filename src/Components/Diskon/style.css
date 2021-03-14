@@ -1,0 +1,19 @@
+.Root-diskon{
+    display: grid;
+    grid-template-columns: auto 100px;
+    position: fixed;
+    z-index: 9999;
+    bottom: 0;
+    color: red;
+    background: black;
+    font-family: Nunito;
+    right: 0;
+    left: 0;
+    font-size: 14pt;
+    text-align: center;
+}
+.Tombol-close{
+    cursor: pointer;
+    background: white;
+    border: 2px solid black;
+}

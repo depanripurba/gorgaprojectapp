@@ -13,33 +13,21 @@ class Rightslide extends Component {
     const settings = {
       dots: true,
       infinite: true,
-      slidesToShow: 2,
+      slidesToShow: 1,
       slidesToScroll: 1,
       vertical: true,
       autoplay:true,
       nextArrow: <Next />,
       prevArrow: <Next />,
       verticalSwiping: true,
-      beforeChange: function(currentSlide, nextSlide) {
-        console.log("before change", currentSlide, nextSlide);
-      },
-      afterChange: function(currentSlide) {
-        console.log("after change", currentSlide);
-      }
+     
     };
     return (
-      <div className="contenrightslide">
-        <h2><center>Kenapa Gorga Project</center></h2>
+      <div className="contenrightslide"> 
         <Slider {...settings}>
-         <Child />
-         <Child />
-         <Child />
-         <Child />
-         <Child />
-         <Child />
-         <Child />
-         <Child />
-         <Child />
+         <Child Judul="Gambar Resolusi Tinggi" Keterangan="Gambar hasil pemotretan adalah gambar dengan resolusi yang tinggi, karena dilengkapi dengan peralatan-peralatan yang memadai"/>
+         <Child Judul="Kami Menggunakan Drone" Keterangan="Pengambilan gambar menggunakan Drone adalah pengambilan gambar yang sangat jarang, namun kami melakukannya untuk anda"/>
+         <Child Judul="Biaya Terjangkau" Keterangan="Untuk mengabadikan moment dengan kualitas yang bagus tentu saja membutuhkan biaya yang banyak , namun kami mengabadikan moment anda dengan biaya yang terjangkau"/>
         </Slider>
       </div>
     );

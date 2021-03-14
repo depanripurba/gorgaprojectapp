@@ -1,0 +1,14 @@
+.Root-media{
+    position: fixed;
+    display: grid;
+    top: 30%;
+    left: 20px;
+}
+.Gambar-media{
+    width: 50px;
+    margin: 10px;
+    opacity: 0.5;
+}
+.Gambar-media:hover{
+    opacity: 1;
+}

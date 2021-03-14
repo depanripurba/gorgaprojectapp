@@ -1,0 +1,26 @@
+.root-kemampuan{
+    margin-top: 50px;
+    padding-right: 70px;
+}
+.kemampuan-grup{
+    display: grid;
+}
+.kemampuan-grup span{
+    line-height: 60px;
+    cursor: pointer;
+    background: white;
+    text-align: center;
+    transition: 1s;
+    font-weight: bold;
+}
+.kemampuan-grup span:hover{
+    background: black;
+    color: white;
+}
+.kemampuan-list{
+    font-family: 'Dancing Script', cursive;
+    font-size: 20pt;
+    text-align: center;
+    color: white;
+    line-height: 30pt;
+}
